@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Contactos</string>
+    <string name="a_adir_contacto">Añadir Contacto</string>
+    <string name="modificar_contacto">Modificar Contacto</string>
+    <string name="eliminar_contacto">Eliminar contacto</string>
+    <string name="consultar_contacto">Consultar contacto</string>
+    <string name="bienvenido">Bienvenido</string>
+    <string name="elija_lo_que_desea_hacer_por_favor">Elija lo que desea hacer por favor</string>
+    <string name="rellene_los_datos_solicitados_por_favor">Rellene los datos solicitados, por favor</string>
+    <string name="nombre">Nombre</string>
+    <string name="numero_de_telefono">Numero de telefono</string>
+    <string name="anadir">Añadir contacto</string>
+    <string name="cancelar">Cancelar</string>
+</resources>
