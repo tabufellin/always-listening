@@ -12,7 +12,7 @@ public class Anadir extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_anadir);
-        //Primer Commit Pablo
+        //Primer Commit Pablo M
     }
 
     public void Atras (View view){
