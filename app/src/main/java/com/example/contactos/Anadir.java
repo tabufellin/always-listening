@@ -12,7 +12,7 @@ public class Anadir extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_anadir);
-        int i =0; //Contador
+        
     }
 
     public void Atras (View view){
