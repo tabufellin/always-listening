@@ -1,10 +1,12 @@
+package com.example.contactos.entidades;
+
 public class Palabra
 {
     private int idPalabra;
     private String textoPalabra;
-    private boolean activada;
+    private int  activada;
     private int[] patronVibracion;
-//Clase palabra
+
 
     public int getIdPalabra() {
         return idPalabra;
@@ -18,11 +20,11 @@ public class Palabra
         return textoPalabra;
     }
 
-    public boolean isActivada() {
+    public int isActivada() {
         return activada;
     }
 
-    public void setActivada(boolean activada) {
+    public void setActivada(int activada) {
         this.activada = activada;
     }
 
