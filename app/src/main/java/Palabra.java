@@ -4,6 +4,7 @@ public class Palabra
     private String textoPalabra;
     private boolean activada;
     private int[] patronVibracion;
+//Clase palabra
 
     public int getIdPalabra() {
         return idPalabra;
