@@ -7,7 +7,7 @@ public class Palabra
     private int  activada;
     private int[] patronVibracion;
 
-
+//gg
     public int getIdPalabra() {
         return idPalabra;
     }
