@@ -6,9 +6,11 @@ import android.database.sqlite.SQLiteOpenHelper;
 
 import androidx.annotation.Nullable;
 
+import com.example.contactos.utilidades.utilidades;
+
 public class ConexionSQLiteHelper extends SQLiteOpenHelper {
 
-    final String CREAR_TABLA_PALABRA ="CREATE TABLE Palabra (idPalabra INTEGER, textoPalabra TEXT, activada INTEGER, patronVibracion INTEGER)";
+
 
     public ConexionSQLiteHelper(@Nullable Context context, @Nullable String name, @Nullable SQLiteDatabase.CursorFactory factory, int version) {
         super(context, name, factory, version);
@@ -16,7 +18,7 @@ public class ConexionSQLiteHelper extends SQLiteOpenHelper {
 
     @Override
     public void onCreate(SQLiteDatabase db) {
-        db.execSQL(CREAR_TABLA_PALABRA);
+        db.execSQL(utilidades.CREAR_TABLA_PALABRA);
     }
 
     @Override
