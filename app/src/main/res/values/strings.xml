@@ -13,4 +13,5 @@
     <string name="cancelar">Cancelar</string>
     <string name="title_activity_main2">Main2Activity</string>
     <string name="emptystr" />
+    <string name="app_button">String</string>
 </resources>
