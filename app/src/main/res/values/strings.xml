@@ -11,4 +11,8 @@
     <string name="numero_de_telefono">Numero de telefono</string>
     <string name="anadir">Añadir contacto</string>
     <string name="cancelar">Cancelar</string>
+    <string name="activar">Activar</string>
+    <string name="desactivar">Desactivar</string>
+    <string name="name">Name</string>
+    <string name="vibrador">Vibrador</string>
 </resources>
