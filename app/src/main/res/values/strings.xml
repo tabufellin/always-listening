@@ -11,7 +11,14 @@
     <string name="numero_de_telefono">Numero de telefono</string>
     <string name="anadir">Añadir contacto</string>
     <string name="cancelar">Cancelar</string>
+<<<<<<< HEAD
     <string name="title_activity_main2">Main2Activity</string>
     <string name="emptystr" />
     <string name="app_button">String</string>
+=======
+    <string name="activar">Activar</string>
+    <string name="desactivar">Desactivar</string>
+    <string name="name">Name</string>
+    <string name="vibrador">Vibrador</string>
+>>>>>>> ee2edda0175a3690d088bfecec8f803008b4917e
 </resources>

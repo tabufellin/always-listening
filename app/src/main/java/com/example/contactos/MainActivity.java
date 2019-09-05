@@ -17,9 +17,9 @@ public class MainActivity extends AppCompatActivity {
         ConexionSQLiteHelper conn = new ConexionSQLiteHelper(this, "BaseDeDatos", null, 1);
     }
 
-    public void Anadir (View view){
-        Intent anadir = new Intent(this, Anadir.class);
-        startActivity(anadir);
+    public void Vibrador (View view){
+        Intent vibrador = new Intent(this, Vibrador.class);
+        startActivity(vibrador);
     }
 
     public void Anadir2 (View view){

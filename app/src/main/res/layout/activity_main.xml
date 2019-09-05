@@ -23,8 +23,8 @@
             android:id="@+id/Añadir"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:onClick="Anadir"
-            android:text="@string/a_adir_contacto" />
+            android:onClick="Vibrador"
+            android:text="@string/vibrador" />
 
         <Button
             android:id="@+id/Modificar"
