@@ -23,48 +23,28 @@
             android:id="@+id/Añadir"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:onClick="Anadir"
-            android:text="@string/a_adir_contacto" />
+            android:onClick="AbrirPantallaNuevaPalabra"
+            android:text="Nueva Palabra" />
 
         <Button
             android:id="@+id/Modificar"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="@string/modificar_contacto" />
+            android:onClick="PantallaNoDisponible"
+            android:text="Lista Palabra" />
 
-        <Button
-            android:id="@+id/Elminar"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="@string/eliminar_contacto" />
-
-        <Button
-            android:id="@+id/Consultar"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="@string/consultar_contacto" />
     </LinearLayout>
 
     <TextView
         android:id="@+id/Saludo"
-        android:layout_width="186dp"
-        android:layout_height="51dp"
-        android:layout_marginStart="112dp"
+        android:layout_width="254dp"
+        android:layout_height="43dp"
+        android:layout_marginStart="76dp"
         android:layout_marginTop="48dp"
-        android:text="@string/bienvenido"
+        android:text="AlwaysListening"
         android:textAlignment="center"
         android:textSize="30sp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
-
-    <TextView
-        android:id="@+id/Intruccion"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="100dp"
-        android:layout_marginTop="22dp"
-        android:text="@string/elija_lo_que_desea_hacer_por_favor"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/Saludo" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
