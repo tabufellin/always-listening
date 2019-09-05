@@ -33,13 +33,14 @@ public class Speechtext extends AppCompatActivity {
         }
     }
 
-    public void onActivityResult(int request_code, int result_code, Intent mod) {
-        super.onActivityResult(request_code, result_code, mod);
+    public void onActivityResult(int request_code, int result_code, Intent mod) {//metodo que guarda la informacion que es captada por el dispositivo.
+        super.onActivityResult(request_code, result_code, mod);// request code ya esta determinado en el metodo anterior
+        //result code es si en verdad capto una palabra y la reconoce, y mod es el objeto que reconocio el audio.(metodo anterior)
         if (request_code) {
             if (result_code == RESULT_OK && !=null)// Result_ok = true
             {
                 ArrayList<String> palabras = mod.getStringArrayListExtra(RecognizerIntent.EXTRA_RESULTS);
-                this.palabrarecibida = palabras;
+                this.palabrarecibida = palabras;// se guarda en la lista, que es un atributo de la clase.
             }
         } else {
             //condicion del while del metodo repetitivo. my services
